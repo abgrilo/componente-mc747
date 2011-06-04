@@ -301,3 +301,138 @@ WARNING: Can't mass-assign protected attributes: id
  WHERE type = 'table' AND NOT name = 'sqlite_sequence'
 [0m
   [1m[35mAREL (7.4ms)[0m  INSERT INTO "clientes" ("telefone", "cep", "nome", "complemento", "email", "cpf", "data_nascimento", "created_at", "updated_at", "ddd") VALUES ('41231234', '1000000', 'Nome', 'N. 10', 'teste@gmail.com', 'abcd', NULL, '2011-06-03 22:57:35.577476', '2011-06-03 22:57:35.577476', '011')
+WARNING: Can't mass-assign protected attributes: id
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "clientes" ("telefone", "data_nascimento", "cpf", "updated_at", "ddd", "nome", "complemento", "email", "created_at", "cep") VALUES ('81625584', '1979-10-05', '12345678900', '2011-06-04 21:07:38.229785', '011', 'Richard Keller', 'apto 17', 'richard@gmail.com', '2011-06-04 21:07:38.229785', '78994000')
+WARNING: Can't mass-assign protected attributes: id
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO "clientes" ("telefone", "data_nascimento", "cpf", "updated_at", "ddd", "nome", "complemento", "email", "created_at", "cep") VALUES ('83843940', NULL, '12345678901', '2011-06-04 21:07:38.482908', '011', 'Alex Bredariol Grilo', 'apto 19', 'alex@gmail.com', '2011-06-04 21:07:38.482908', '78994800')[0m
+WARNING: Can't mass-assign protected attributes: id
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "clientes" ("telefone", "data_nascimento", "cpf", "updated_at", "ddd", "nome", "complemento", "email", "created_at", "cep") VALUES ('81499470', NULL, '12345678902', '2011-06-04 21:07:38.560759', '011', 'Bruno Buccolo', 'apto 15', 'bruno@gmail.com', '2011-06-04 21:07:38.560759', '78956000')
+WARNING: Can't mass-assign protected attributes: id
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO "clientes" ("telefone", "data_nascimento", "cpf", "updated_at", "ddd", "nome", "complemento", "email", "created_at", "cep") VALUES ('89291319', '1973-12-08', '12345678903', '2011-06-04 21:07:38.638363', '011', 'Moacyr Ricardo Pereira', 'apto 33', 'moacyr@gmail.com', '2011-06-04 21:07:38.638363', '78969000')[0m
+WARNING: Can't mass-assign protected attributes: id
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "clientes" ("telefone", "data_nascimento", "cpf", "updated_at", "ddd", "nome", "complemento", "email", "created_at", "cep") VALUES ('89342692', NULL, '12345678904', '2011-06-04 21:07:38.716067', '011', 'Douglas Nunes Alves', 'apto 68', 'douglas@gmail.com', '2011-06-04 21:07:38.716067', '78931000')
+WARNING: Can't mass-assign protected attributes: id
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO "clientes" ("telefone", "data_nascimento", "cpf", "updated_at", "ddd", "nome", "complemento", "email", "created_at", "cep") VALUES ('89247730', '1985-12-03', '12345678905', '2011-06-04 21:07:38.793794', '011', 'Arthur Giro Moreno', 'apto 51', 'arthur@gmail.com', '2011-06-04 21:07:38.793794', '78967800')[0m
+WARNING: Can't mass-assign protected attributes: id
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "clientes" ("telefone", "data_nascimento", "cpf", "updated_at", "ddd", "nome", "complemento", "email", "created_at", "cep") VALUES ('89920578', NULL, '12345678906', '2011-06-04 21:07:38.872048', '011', 'Mariana Gasparini', 'apto 30', 'mariana@gmail.com', '2011-06-04 21:07:38.872048', '78999000')
+WARNING: Can't mass-assign protected attributes: id
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO "clientes" ("telefone", "data_nascimento", "cpf", "updated_at", "ddd", "nome", "complemento", "email", "created_at", "cep") VALUES ('89122811', '1976-06-08', '12345678907', '2011-06-04 21:07:38.949478', '011', 'Gabriela Doce Oliveira', 'apto 69', 'gabriela@gmail.com', '2011-06-04 21:07:38.949478', '78944000')[0m
+WARNING: Can't mass-assign protected attributes: id
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "clientes" ("telefone", "data_nascimento", "cpf", "updated_at", "ddd", "nome", "complemento", "email", "created_at", "cep") VALUES ('82203961', '1984-10-09', '12345678908', '2011-06-04 21:07:39.027484', '011', 'Rudolf Keller', 'apto 54', 'rudolf@gmail.com', '2011-06-04 21:07:39.027484', '78976000')
+WARNING: Can't mass-assign protected attributes: id
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO "clientes" ("telefone", "data_nascimento", "cpf", "updated_at", "ddd", "nome", "complemento", "email", "created_at", "cep") VALUES ('86971648', NULL, '12345678909', '2011-06-04 21:07:39.105505', '011', 'Beatriz Delagnese', 'apto 39', 'beatriz@gmail.com', '2011-06-04 21:07:39.105505', '78967000')[0m
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "clientes"[0m
+  [1m[35mCliente Load (1.2ms)[0m  SELECT "clientes".* FROM "clientes"
+  [1m[36mCliente Load (1.2ms)[0m  [1mSELECT "clientes".* FROM "clientes"[0m
+  [1m[36mAREL (100.4ms)[0m  [1mDELETE FROM "clientes" WHERE 1=1[0m
+WARNING: Can't mass-assign protected attributes: id
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "clientes" ("email", "updated_at", "telefone", "complemento", "ddd", "cpf", "cep", "created_at", "nome", "data_nascimento") VALUES ('richard@gmail.com', '2011-06-04 21:10:20.468231', '81625584', 'apto 17', '011', '0', '78994000', '2011-06-04 21:10:20.468231', 'Richard Keller', '1979-10-05')[0m
+WARNING: Can't mass-assign protected attributes: id
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "clientes" ("email", "updated_at", "telefone", "complemento", "ddd", "cpf", "cep", "created_at", "nome", "data_nascimento") VALUES ('alex@gmail.com', '2011-06-04 21:10:20.559750', '83843940', 'apto 19', '011', '1', '78994800', '2011-06-04 21:10:20.559750', 'Alex Bredariol Grilo', NULL)
+WARNING: Can't mass-assign protected attributes: id
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO "clientes" ("email", "updated_at", "telefone", "complemento", "ddd", "cpf", "cep", "created_at", "nome", "data_nascimento") VALUES ('bruno@gmail.com', '2011-06-04 21:10:20.649709', '81499470', 'apto 15', '011', '2', '78956000', '2011-06-04 21:10:20.649709', 'Bruno Buccolo', NULL)[0m
+WARNING: Can't mass-assign protected attributes: id
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "clientes" ("email", "updated_at", "telefone", "complemento", "ddd", "cpf", "cep", "created_at", "nome", "data_nascimento") VALUES ('moacyr@gmail.com', '2011-06-04 21:10:20.727131', '89291319', 'apto 33', '011', '3', '78969000', '2011-06-04 21:10:20.727131', 'Moacyr Ricardo Pereira', '1973-12-08')
+WARNING: Can't mass-assign protected attributes: id
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO "clientes" ("email", "updated_at", "telefone", "complemento", "ddd", "cpf", "cep", "created_at", "nome", "data_nascimento") VALUES ('douglas@gmail.com', '2011-06-04 21:10:20.816543', '89342692', 'apto 68', '011', '4', '78931000', '2011-06-04 21:10:20.816543', 'Douglas Nunes Alves', NULL)[0m
+WARNING: Can't mass-assign protected attributes: id
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "clientes" ("email", "updated_at", "telefone", "complemento", "ddd", "cpf", "cep", "created_at", "nome", "data_nascimento") VALUES ('arthur@gmail.com', '2011-06-04 21:10:20.905127', '89247730', 'apto 51', '011', '5', '78967800', '2011-06-04 21:10:20.905127', 'Arthur Giro Moreno', '1985-12-03')
+WARNING: Can't mass-assign protected attributes: id
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO "clientes" ("email", "updated_at", "telefone", "complemento", "ddd", "cpf", "cep", "created_at", "nome", "data_nascimento") VALUES ('mariana@gmail.com', '2011-06-04 21:10:20.982957', '89920578', 'apto 30', '011', '6', '78999000', '2011-06-04 21:10:20.982957', 'Mariana Gasparini', NULL)[0m
+WARNING: Can't mass-assign protected attributes: id
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "clientes" ("email", "updated_at", "telefone", "complemento", "ddd", "cpf", "cep", "created_at", "nome", "data_nascimento") VALUES ('gabriela@gmail.com', '2011-06-04 21:10:21.072153', '89122811', 'apto 69', '011', '7', '78944000', '2011-06-04 21:10:21.072153', 'Gabriela Doce Oliveira', '1976-06-08')
+WARNING: Can't mass-assign protected attributes: id
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO "clientes" ("email", "updated_at", "telefone", "complemento", "ddd", "cpf", "cep", "created_at", "nome", "data_nascimento") VALUES ('rudolf@gmail.com', '2011-06-04 21:10:21.149886', '82203961', 'apto 54', '011', '8', '78976000', '2011-06-04 21:10:21.149886', 'Rudolf Keller', '1984-10-09')[0m
+WARNING: Can't mass-assign protected attributes: id
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "clientes" ("email", "updated_at", "telefone", "complemento", "ddd", "cpf", "cep", "created_at", "nome", "data_nascimento") VALUES ('beatriz@gmail.com', '2011-06-04 21:10:21.250022', '86971648', 'apto 39', '011', '9', '78967000', '2011-06-04 21:10:21.250022', 'Beatriz Delagnese', NULL)
+  [1m[35mCliente Load (1.1ms)[0m  SELECT "clientes".* FROM "clientes"
+
+
+Started GET "/clientes" for 127.0.0.1 at Sat Jun 04 18:10:56 -0300 2011
+  Processing by ClientesController#index as HTML
+  [1m[36mCliente Load (1.2ms)[0m  [1mSELECT "clientes".* FROM "clientes"[0m
+Rendered clientes/index.html.erb within layouts/application (39.2ms)
+Completed 200 OK in 142ms (Views: 69.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/clientes/13" for 127.0.0.1 at Sat Jun 04 18:11:01 -0300 2011
+  Processing by ClientesController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "clientes" WHERE "clientes"."cpf" = '13'[0m
+  [1m[35mCliente Load (0.2ms)[0m  SELECT "clientes".* FROM "clientes" WHERE "clientes"."id" = 13 LIMIT 1
+Rendered clientes/show.html.erb within layouts/application (61.9ms)
+Completed 200 OK in 95ms (Views: 66.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/clientes/0" for 127.0.0.1 at Sat Jun 04 18:11:06 -0300 2011
+  Processing by ClientesController#show as HTML
+  Parameters: {"id"=>"0"}
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "clientes" WHERE "clientes"."cpf" = '0'[0m
+  [1m[35mCliente Load (0.2ms)[0m  SELECT "clientes".* FROM "clientes" WHERE "clientes"."cpf" = '0'
+Rendered clientes/show.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 27ms (Views: 19.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/clientes/0.xml" for 127.0.0.1 at Sat Jun 04 18:11:11 -0300 2011
+  Processing by ClientesController#show as XML
+  Parameters: {"id"=>"0"}
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "clientes" WHERE "clientes"."cpf" = '0'[0m
+  [1m[35mCliente Load (0.2ms)[0m  SELECT "clientes".* FROM "clientes" WHERE "clientes"."cpf" = '0'
+Completed 200 OK in 73ms (Views: 64.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/clientes/abcd0.xml" for 127.0.0.1 at Sat Jun 04 18:11:14 -0300 2011
+  Processing by ClientesController#show as XML
+  Parameters: {"id"=>"abcd0"}
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "clientes" WHERE "clientes"."cpf" = 'abcd0'[0m
+  [1m[35mCliente Load (0.2ms)[0m  SELECT "clientes".* FROM "clientes" WHERE "clientes"."id" = 0 LIMIT 1
+Completed   in 8ms
+
+ActiveRecord::RecordNotFound (Couldn't find Cliente with ID=abcd0):
+  app/controllers/clientes_controller.rb:22:in `show'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.3ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.3ms)
+
+
+Started GET "/clientes/abcd0.xml" for 127.0.0.1 at Sat Jun 04 18:13:12 -0300 2011
+  Processing by ClientesController#show as XML
+  Parameters: {"id"=>"abcd0"}
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "clientes" WHERE "clientes"."cpf" = '0'[0m
+  [1m[35mCliente Load (0.2ms)[0m  SELECT "clientes".* FROM "clientes" WHERE "clientes"."cpf" = '0'
+Completed 200 OK in 18ms (Views: 11.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/clientes/0.xml" for 127.0.0.1 at Sat Jun 04 18:13:21 -0300 2011
+  Processing by ClientesController#show as XML
+  Parameters: {"id"=>"0"}
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "clientes" WHERE "clientes"."cpf" = '0'[0m
+  [1m[35mCliente Load (0.2ms)[0m  SELECT "clientes".* FROM "clientes" WHERE "clientes"."cpf" = '0'
+Completed 200 OK in 21ms (Views: 11.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/clientes/1.xml" for 127.0.0.1 at Sat Jun 04 18:13:24 -0300 2011
+  Processing by ClientesController#show as XML
+  Parameters: {"id"=>"1"}
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "clientes" WHERE "clientes"."cpf" = '1'[0m
+  [1m[35mCliente Load (0.2ms)[0m  SELECT "clientes".* FROM "clientes" WHERE "clientes"."cpf" = '1'
+Completed 200 OK in 18ms (Views: 10.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/clientes/sajdandna1.xml" for 127.0.0.1 at Sat Jun 04 18:13:28 -0300 2011
+  Processing by ClientesController#show as XML
+  Parameters: {"id"=>"sajdandna1"}
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "clientes" WHERE "clientes"."cpf" = '1'[0m
+  [1m[35mCliente Load (0.2ms)[0m  SELECT "clientes".* FROM "clientes" WHERE "clientes"."cpf" = '1'
+Completed 200 OK in 18ms (Views: 10.5ms | ActiveRecord: 0.4ms)

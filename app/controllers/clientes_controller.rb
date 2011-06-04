@@ -14,12 +14,17 @@ class ClientesController < ApplicationController
   # GET /clientes/1.xml
   def show
     id = params[:id]
-    consulta = Cliente.where(:cpf => params[:id])
     cpf_consulta = id[id.length-1..id.length]
+    consulta = Cliente.where(:cpf => cpf_consulta)
     if consulta.present?
       @cliente = consulta[0]
     else
-      @cliente = Cliente.find(params[:id])
+      consulta = Cliente.where(:cpf => params[:id])
+      if consulta.present?
+        @cliente = consulta[0]
+      else
+        @cliente = Cliente.find(params[:id])
+      end
     end
     respond_to do |format|
       format.html # show.html.erb
