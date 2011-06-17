@@ -28,6 +28,7 @@ class ClientesController < ApplicationController
     end
     respond_to do |format|
       format.html # show.html.erb
+      format.js  { render :json => @cliente}
       format.xml  { render :xml => @cliente }
     end
   end
