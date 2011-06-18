@@ -26,6 +26,10 @@ class ClientesController < ApplicationController
         @cliente = Cliente.find(params[:id])
       end
     end
+
+    if @cliente
+      @cliente.cpf = id
+    end
     respond_to do |format|
       format.html # show.html.erb
       format.js  { render :json => @cliente}
