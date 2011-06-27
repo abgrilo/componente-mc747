@@ -15,6 +15,16 @@ class ClientesController < ApplicationController
   def show
     id = params[:id]
     cpf_consulta = id[id.length-1..id.length]
+
+    if cpf_consulta == "2"
+     saida = {:erro => "-1"}
+     respond_to do |format|
+       format.js  { render :json => saida}
+       format.xml  { render :xml => saida}
+     end
+     return
+    end
+
     consulta = Cliente.where(:cpf => cpf_consulta)
     if consulta.present?
       @cliente = consulta[0]
